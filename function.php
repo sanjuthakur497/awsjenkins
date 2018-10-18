@@ -1,9 +1,9 @@
 <?php
 session_start();
 define('DB_SERVER','localhost');
-define('DB_USER','root');
-define('DB_PASS' ,'');
-define('DB_NAME', 'demos');
+define('DB_USER','awsjenkins');
+define('DB_PASS' ,'awsjenkins');
+define('DB_NAME', 'awsjenkins');
 class DB_con
 {
 	function __construct()
